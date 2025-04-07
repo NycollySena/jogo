@@ -89,4 +89,15 @@ const virarNovamente = () => {
     resetCampo()
   }, 1500)
 }
+//Limpando os dados da rodada atual para começar outra
+  const resetCampo = () => {
+    estado.cartaVirou = false;
+    estado.campoTrancado = false;
+    estado.primeiracarta = null;
+    estado.segundaCarta = null;
+  };
+
+  //ativando o clique nas cartas 
+  document.querySelectorAll(".carta").forEach(carta => carta.addEventListener("click", virarCarta)
+  );
 
