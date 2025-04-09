@@ -4,7 +4,7 @@ padding: 0;
 }
 body{
     background-color: cadetblue;
-color: darkblue;
+color: rgb(243, 243, 243);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -35,4 +35,32 @@ background-color: darkslategray;
 .carta-virada{
 background-color: rgb(255, 255, 255);
     color: cadetblue;
+}
+.start {
+    padding: 20px 35px;
+    background-color: darkslategray;
+    border: none;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+}
+
+.start:hover {
+    background-color: rgb(60, 100, 100)
+}
+
+p {
+    font-size: 20px;
+    text-align: justify;
+    width: 100%;
+    max-width: 300px;
+    color: black;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
 }
